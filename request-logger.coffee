@@ -17,7 +17,7 @@ module.exports = (req, res, next) ->
 	requestLogger ""
 	requestLogger ""
 	requestLogger border
-	requestLogger.note 
+	requestLogger.note path
 	requestLogger border
 	
 	next()
